@@ -77,7 +77,7 @@ export default function ArenaCanvas({
         ctx.lineWidth = 1;
         ctx.beginPath();
         let sp = { ...a.pos };
-        let sv = { ...a.vel };
+        const sv = { ...a.vel };
         for (let i = 0; i < 40; i++) {
           sp = add(sp, mul(sv, 0.05)); // 0.05s steps, 2s total
           const px = sp.x * sx;

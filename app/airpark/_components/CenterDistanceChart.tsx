@@ -10,7 +10,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 type CenterDistanceChartProps = {
   data: Array<Record<string, number>>; // rows like { t: number, A1: number, A2: number, ... }

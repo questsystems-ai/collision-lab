@@ -12,7 +12,7 @@ type HeaderBarProps = {
 };
 
 export default function HeaderBar({
-  title = "Aaron's Airpark — Live UAV Collision Avoidance Lab",
+  title = "FlyIRL SkyPark — Live UAV Collision Avoidance Lab",
   running,
   onToggleRun,
   onReset,
